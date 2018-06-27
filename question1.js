@@ -1,6 +1,9 @@
 let checkLogin=(email,password,allUsers)=>{
 	let isUserFound=false;
-	let passwordCorrect=false;
+	let passwordCorrect=false;      
+	
+	
+	
 
 	for (const currentUser in allUsers) {
 		console.log(currentUser);
